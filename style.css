@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "spider";
+    src: url(./The\ Amazing\ Spider-Man.ttf);
+}
+@font-face {
+    font-family: "bat";
+    src: url(./batmfa__.ttf);
+}
+@font-face {
+    font-family: "fancy";
+    src: url(./Royalty\ Free.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+  
+    
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/1200x/65/ea/5e/65ea5ef02ca5d2fe9430b34efb4bca75.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+
+.text{
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+}
+
+.text h1{
+    font-family: spider;
+    font-size: 50px;
+    color: #C21D13;
+    text-shadow: 4px 2px 6px #000000;
+}
+
+
+.text button{
+   width: 150px;
+   height: 50px;
+   border: 2px black solid;
+   border-radius: 20px;
+   background: radial-gradient(circle, rgb(182, 2, 2) 0%, rgb(157, 8, 8) 100%);
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-family: bat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spanbtn{
+    font-family: spider;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+
+.text button:hover{
+    background: radial-gradient(circle, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.text2{
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+
+.text2 span{
+    text-transform: uppercase;
+    font-family: bat;
+    color: #C21D13;
+    font-size: 80px;
+    text-shadow: 4px 2px 6px #000000;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+}
+#firsttext{
+    position: relative;
+    left: -6%;
+}
+
+
+.text2 #upper{
+    font-family: fancy;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    font-size: 70px;
+    z-index: 1;
+}
+.text2 #lower{
+    font-family: fancy;
+    position: absolute;
+    top:65%;
+    left: 12%;
+    font-size: 70px;
+    z-index: 1;
+
+}
+
+
+#spidey{
+    position: absolute;
+    font-family: spider;
+    color: black;
+    left: 75%;
+    z-index: 0;
+    top: 3%;
+}
+
+
+
+
+
+
